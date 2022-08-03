@@ -1,0 +1,86 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 62,5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desafio {
+    width: 30%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;   
+}
+
+.desafio:last-child {
+    justify-content: space-between;
+}
+
+#img-cat {
+    width: 60%;
+}
+
+.container-stickers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cat{
+    display: flex;
+    justify-content: center;
+}
+.sticker img {
+  
+    height: 120px;
+}
+
+.container-password {
+    display: flex;
+}
+
+input, select {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px){
+    .container-stickers {
+        flex-direction: column;
+    }
+}
+

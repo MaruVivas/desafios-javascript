@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugando con Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Jugando con Javascript</h1>
+    <div class="container">
+            
+            <section class="desafio">
+                <h2>Encierra al gato</h2>
+                <p>Haciendo clic</p>
+                <div class="styleOnClick container-cat">
+                    <img id="img-cat" src="assets/css/img/cat.jpg" alt="cat">
+                </div>
+            </section>
+            <section class="desafio">
+                <h2>Comprando stickers</h2>
+                <p>Puedes llevar hasta 10 stickers en total</p>
+                <div class="container-stickers">
+                    <div class="sticker">
+                        <img src="assets/css/img/coding.png">
+                        <input id="sticker1" type="number">
+                    </div>
+                    <div class="sticker">
+                        <img src="assets/css/img/clean.jpg" alt="sticker2">
+                        <input id="sticker2" type="number"> 
+                    </div>
+                    <div class="sticker">
+                        <img src="assets/css/img/css.jpg" alt="sticker3">
+                        <input id="sticker3" type="number"> 
+                    </div>
+                </div>
+                <p id="stock"></p>
+                <button class="btn" id="btn1">Verificar Stock</button>
+            </section>
+            <section class="desafio">
+                <h2>Ingresa el password correcto</h2>
+                <div class="container-password">
+                    <select id="digit1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="digit2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="digit3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <p id="password-resolution"></p>
+                <button class="btn" id="btn2">Ingresar</button>
+            </section>   
+    </div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
