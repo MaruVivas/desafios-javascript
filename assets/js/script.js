@@ -41,9 +41,11 @@ btn2.addEventListener("click", () => {
 
     const passwordResolution = document.getElementById("password-resolution");
 
-    if(digit1 == 9 && digit2 == 1 && digit3 == 1 || digit1 == 7 && digit2 == 1 && digit3 == 4){
-        passwordResolution.innerHTML = "¡Contraseña correcta!&#9989;"
+    if(digit1 == 9 && digit2 == 1 && digit3 == 1){
+        passwordResolution.innerHTML = "¡Contraseña 1 correcta!&#9989;";
+    } else if(digit1 == 7 && digit2 == 1 && digit3 == 4 ) {
+        passwordResolution.innerHTML = "¡Contraseña 2 correcta!&#9989;";
     } else {
-        passwordResolution.innerHTML = "¡Contraseña incorrecta!&#9940"
+        passwordResolution.innerHTML = "¡Contraseña incorrecta!&#9940";
     }
 })
